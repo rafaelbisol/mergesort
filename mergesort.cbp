@@ -31,6 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mergesort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mergesort.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

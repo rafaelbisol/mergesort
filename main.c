@@ -1,7 +1,7 @@
 #include "mergesort.h"
 
 /* Funçao principal . */
-int main ( int argc, char * argv [])
+int main (int argc, char * argv [])
 {
     clock_t start, end;
     double elapsed_time;
@@ -24,7 +24,7 @@ int main ( int argc, char * argv [])
     end = clock ();
     elapsed_time = (end - start) / (double) CLOCKS_PER_SEC;
     printf ("Tempo de execuçao (Merge-Sort): %.2f\n", elapsed_time);
-    if (! Verifica_Ordenacao (v, tamanho ))
+    if (! Verifica_Ordenacao (v, tamanho))
     {
         printf ("Erro: a ordenacao nao está correta !\n");
     }
